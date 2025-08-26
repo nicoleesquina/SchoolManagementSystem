@@ -1,0 +1,521 @@
+# ================================
+# ARCHIVOS COMPILADOS DE JAVA
+# ================================
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+# JVM crash logs
+*.hprof
+
+# ================================
+# IDEs y EDITORES
+# ================================
+
+# IntelliJ IDEA
+/.idea
+*.iws
+*.iml
+*.ipr
+/out/
+/target
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.project
+.classpath
+.externalToolBuilders/
+*.launch
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Atom
+.atom/
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+.netrwhist
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Kate
+.kateconfig
+
+# ================================
+# SISTEMAS DE BUILD Y DEPENDENCIAS
+# ================================
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.flattened-pom.xml
+
+# Gradle
+.gradle
+**/build/
+!src/**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+.gradletasknamecache
+/gradle/
+
+# SBT
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+# Scala IDE
+.scala_dependencies
+.worksheet
+
+# Apache Ant
+build.xml.old
+build.properties
+
+# ================================
+# SISTEMAS OPERATIVOS
+# ================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# ================================
+# ARCHIVOS DE CONFIGURACIÓN Y SECRETS
+# ================================
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Configuration files with sensitive data
+config.properties
+application-local.properties
+application-dev.properties
+application-prod.properties
+secrets.yml
+secrets.yaml
+credentials.json
+credentials.xml
+database.properties
+
+# API Keys and tokens
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+
+# SSH Keys (never commit these!)
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*.pub
+
+# ================================
+# BASES DE DATOS
+# ================================
+
+# H2 Database
+*.db
+*.trace.db
+*.lock.db
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db3
+
+# Derby
+derby.log
+/derby/
+
+# HSQLDB
+hsqldb/
+
+# ================================
+# ARCHIVOS TEMPORALES Y CACHE
+# ================================
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+/temp/
+/tmp/
+
+# Cache directories
+.cache/
+cache/
+*.cache
+
+# Backup files
+*.backup
+*.bak
+*.orig
+*~
+*.swp
+*.swo
+
+# ================================
+# TESTING Y COVERAGE
+# ================================
+
+# JUnit
+TEST-*.xml
+junit.properties
+
+# TestNG
+test-output/
+
+# Coverage reports
+.jacoco
+*.exec
+jacoco.exec
+/coverage/
+
+# Mutation testing
+/target/pit-reports/
+
+# ================================
+# DOCUMENTACIÓN GENERADA
+# ================================
+
+# JavaDoc
+doc/
+docs/api/
+docs/generated/
+/javadoc/
+
+# Doxygen
+/docs/html/
+/docs/latex/
+
+# ================================
+# DEPENDENCY MANAGERS
+# ================================
+
+# npm (si usas Node.js tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Bower
+bower_components/
+
+# ================================
+# APLICACIONES Y SERVIDORES
+# ================================
+
+# Application servers
+/catalina.base
+/work/
+
+# Spring Boot
+spring.log
+application.pid
+
+# Logs de aplicación
+logs/
+*.log.*
+log4j.properties
+logback.xml
+
+# ================================
+# ARCHIVOS DE DATOS Y UPLOADS
+# ================================
+
+# Data files
+data/
+*.csv
+*.json
+*.xml
+*.sql
+
+# Upload directories
+uploads/
+files/
+attachments/
+
+# Backup databases
+*.dump
+*.backup.sql
+
+# ================================
+# ARCHIVOS MULTIMEDIA (OPCIONAL)
+# ================================
+
+# Images (descomenta si NO quieres subir imágenes)
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.bmp
+# *.tiff
+# *.svg
+# *.webp
+# *.ico
+
+# Videos (descomenta si NO quieres subir videos)
+# *.mp4
+# *.avi
+# *.mov
+# *.wmv
+# *.flv
+# *.mkv
+
+# Audio (descomenta si NO quieres subir audio)
+# *.mp3
+# *.wav
+# *.ogg
+# *.m4a
+# *.aac
+
+# Large files
+*.iso
+*.dmg
+*.exe
+*.deb
+*.rpm
+
+# ================================
+# TOOLS Y UTILITIES
+# ================================
+
+# JProfiler
+*.jpx
+
+# JMeter
+*.jmx
+
+# Sonar
+.sonar/
+.sonarqube/
+
+# Checkstyle
+checkstyle-*
+
+# PMD
+.pmd
+
+# FindBugs
+.findbugs
+
+# SpotBugs
+.spotbugs
+
+# ================================
+# CLOUD Y DEPLOYMENT
+# ================================
+
+# Docker
+Dockerfile.local
+docker-compose.override.yml
+.docker/
+
+# Kubernetes
+*.local.yaml
+*.dev.yaml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# AWS
+.aws/
+
+# ================================
+# ARCHIVOS ESPECÍFICOS DEL PROYECTO
+# ================================
+
+# School Management System specific files
+/student-data/
+/reports/
+/exports/
+/backups/
+
+# Personal notes and documentation
+personal-notes.txt
+TODO.txt
+notes/
+
+# Configuration files específicos del desarrollador
+local-config.properties
+dev-settings.xml
+
+# ================================
+# ARCHIVOS GENERADOS AUTOMÁTICAMENTE
+# ================================
+
+# Auto-generated files
+generated/
+auto/
+.generated/
+
+# Release files
+release/
+dist/
+
+# Compiled documentation
+*.pdf
+*.doc
+*.docx
+
+# ================================
+# PERFORMANCE Y PROFILING
+# ================================
+
+# Performance monitoring
+*.hprof
+*.dump
+*.prof
+
+# Memory dumps
+heapdump.*
+*.mdmp
+
+# CPU profiling
+cpu.prof
+mem.prof
